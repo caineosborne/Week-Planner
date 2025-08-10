@@ -328,7 +328,7 @@ export default function App() {
     const newMeal = {
       id: generateId("precooked", idSeed),
       name: `Precooked Meal ${precookedMeals.length + 1}`,
-      servings: 3 // Default to 3 servings
+      servings: 1 // Default to 3 servings
     };
     setPrecookedMeals(prev => [...prev, newMeal]);
   };
